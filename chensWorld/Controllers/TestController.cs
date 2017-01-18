@@ -8,7 +8,7 @@ using System.Web.Http.Cors;
 
 namespace chensWorld.Controllers
 {
-    [EnableCors(origins: "http://chensClient.azurewebsites.net", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://localhost:51995", headers: "*", methods: "*")]
 
     public class TestController : ApiController
     {
